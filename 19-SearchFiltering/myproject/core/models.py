@@ -1,0 +1,10 @@
+from django.db import models
+
+# Create your models here.
+class Student(models.Model):
+    name = models.CharField()
+    age = models.IntegerField()
+    city = models.CharField()
+    passby = models.CharField()
+
+    
